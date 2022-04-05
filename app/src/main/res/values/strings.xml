@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GitHubProfile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="overview">Overview</string>
+    <string name="projects">Repositories</string>
+    <string name="stars">Project</string>
+    <string name="repositories">Stars</string>
+</resources>
