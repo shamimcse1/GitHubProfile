@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHubProfile/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/GitHubProfile/app/src/main/res/layout/fragment_overview.xml" value="0.209375" />
+        <entry key="..\:/GitHubProfile/app/src/main/res/layout/fragment_projects.xml" value="0.209375" />
         <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/GitHubProfile/app/src/main/res/drawable/style.xml" value="0.1745" />
         <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/GitHubProfile/app/src/main/res/drawable/tab_style.xml" value="0.1745" />
         <entry key="..\:/Users/Appinion BD/AndroidStudioProjects/GitHubProfile/app/src/main/res/layout/activity_main.xml" value="0.33" />

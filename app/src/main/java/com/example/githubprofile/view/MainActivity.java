@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     public ProfileViewModel profileViewModel;
     private ProgressDialog progressDialog;
     public ActivityMainBinding binding;
+
     public OverviewFragment overviewFragment;
     public RepositoriesFragment repositoriesFragment;
     public ProjectsFragment projectsFragment;
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         tabLayout.setupWithViewPager(viewPager);
-        viewPager.setOffscreenPageLimit(4);
+        viewPager.setOffscreenPageLimit(1);
         initFragment();
 
         Map<String, Fragment> stringFragmentMap = new LinkedHashMap<>();
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
         stringFragmentMap.put(getResources().getString(R.string.overview), overviewFragment);
         stringFragmentMap.put(getResources().getString(R.string.repositories), repositoriesFragment);
-        stringFragmentMap.put(getResources().getString(R.string.projects), projectsFragment);
+        stringFragmentMap.put(getResources().getString(R.string.project), projectsFragment);
         stringFragmentMap.put(getResources().getString(R.string.stars), starsFragment);
     }
 }
